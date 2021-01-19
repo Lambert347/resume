@@ -27,7 +27,6 @@
     </div>
     
     <div id="Education" class="tabcontent">
-      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h2>Education</h2>
       <h4>University of Minnesota College of Liberal Arts</h4>
       <ul>
@@ -47,7 +46,6 @@
     </div>
     
     <div id="Professional Experience" class="tabcontent">
-      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <div>
         <h4>Caribou Coffee - Barista (Eagan, MN)</h4>
         <h5>October 2018 - December 2020</h5>
@@ -108,7 +106,6 @@
     </div>
     
     <div id="Professional Skills" class="tabcontent">
-      <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
       <h2>Professional Skills</h2>
       <ul>
         <li>
@@ -120,6 +117,7 @@
     <script>
       function openBox(evt, boxName) {
   var i, tabcontent, tablinks;
+        
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
     tabcontent[i].style.display = "none";
