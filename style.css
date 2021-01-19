@@ -1,9 +1,11 @@
 body {
   font-family: Arial, Times, sans-serif;
-  display: block;
   text-align: left;
   background-color: #F0FFFF;
-  
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 100px;
 }
 
 .tab {
@@ -11,12 +13,13 @@ body {
   border: 1px solid #ccc;
   background-color: #f1f1f1;
   padding: 3px;
+  text-align: center;
   
 }
 
 .tab button {
   background-color: inherit;
-  float: left;
+  float: none;
   border: none;
   outline: none;
   cursor: pointer;
@@ -48,28 +51,26 @@ body {
   display: block;
   text-align: center;
   border: 5px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 .athens {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border: 5px solid black;
-  width: 70%;
+  width: 20%;
+  float: right;
 }
 
 .factory {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border: 5px solid black;
-  width: 70%;
+  width: 20%;
+  float: right;
 }
 
 .voltaire {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   border: 5px solid black;
-  width:40%;
-}
+  width:20%;
+  float: right;
