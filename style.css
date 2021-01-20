@@ -1,76 +1,92 @@
 body {
   font-family: Arial, Times, sans-serif;
   text-align: left;
-  background-color: #F0FFFF;
+  background-color: #5F9EA0;
   border-radius: 10px;
-  margin-left: 20%;
-  margin-right: 20%;
-  height: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 10px 200px 10px 200px;
 }
 
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  padding: 3px;
   text-align: center;
-  
 }
 
 .tab button {
   background-color: inherit;
-  float: none;
   border: none;
   outline: none;
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
+  font-size: 17px;
 }
 
-.tab button:hover{
+.tab button:hover {
   background-color: #ddd;
 }
 
-.tab button:active{
+.tab button.active {
   background-color: #ccc;
 }
 
-.tab content {
+.tabcontent {
   display: none;
-  padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
-  animation: fadeEffect 1s;
-  @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
 }
 
 .header {
   display: block;
   text-align: center;
-  border: 5px solid black;
-  border-radius: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+#textblock {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #FFF5EE;
+  padding: 10px;
+  border: 1px #ccc;
+  border-radius: 15px; 
+ 
 }
 
 .athens {
   display: block;
   border: 5px solid black;
-  width: 20%;
-  float: right;
+  width: 40%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .factory {
   display: block;
   border: 5px solid black;
-  width: 20%;
-  float: right;
+  width: 40%;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .voltaire {
   display: block;
   border: 5px solid black;
-  width:20%;
-  float: right;
+  width: 20%;
+  float: none;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 36px;
+}
